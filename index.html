@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toulouse Actu - Actualités locales</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .breaking-news {
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0% { border-color: #ef4444; }
+            50% { border-color: #fca5a5; }
+            100% { border-color: #ef4444; }
+        }
+        .article-divider {
+            border-top: 2px dashed #4b5563;
+            margin: 2rem 0;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 font-sans">
+    <!-- Header -->
+    <header class="bg-rose-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-4">
+            <div class="flex flex-col md:flex-row justify-between items-center">
+                <div class="flex items-center mb-4 md:mb-0">
+                    <i class="fas fa-city text-3xl mr-3"></i>
+                    <div>
+                        <h1 class="text-2xl font-bold">Toulouse Actu</h1>
+                        <p class="text-sm opacity-80">L'actualité locale en direct</p>
+                    </div>
+                </div>
+                <nav class="flex space-x-1 md:space-x-4">
+                    <a href="#" class="px-3 py-2 rounded hover:bg-rose-700 transition">Accueil</a>
+                    <a href="#" class="px-3 py-2 rounded hover:bg-rose-700 transition">Actualités</a>
+                    <a href="#" class="px-3 py-2 rounded hover:bg-rose-700 transition">Événements</a>
+                    <a href="#" class="px-3 py-2 rounded hover:bg-rose-700 transition">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Banner -->
+    <div class="bg-red-600 text-white py-2 px-4">
+        <div class="container mx-auto flex items-center">
+            <span class="font-bold mr-3">DERNIÈRE MINUTE</span>
+            <marquee behavior="scroll" direction="left">
+                Toulouse : l'accident de Matabiau était une tentative de meurtre sur fond d'héritage familial - L'auteur est le demi-frère de la victime
+            </marquee>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container mx-auto px-4 py-8">
+        <!-- Article Section -->
+        <article class="bg-white rounded-lg shadow-md overflow-hidden">
+            <!-- Article Header -->
+            <div class="border-l-4 border-red-500 breaking-news p-4 bg-gray-50">
+                <div class="flex items-center mb-2">
+                    <span class="bg-red-500 text-white text-xs font-bold px-2 py-1 rounded mr-2">EXCLUSIF</span>
+                    <span class="text-gray-600 text-sm">Publié le 22 juin 2025</span>
+                </div>
+                <h1 class="text-3xl md:text-4xl font-bold text-gray-900 leading-tight">
+                    🚨 Toulouse : l'accident de Matabiau était une tentative de meurtre sur fond d'héritage familial
+                </h1>
+                <p class="mt-2 text-gray-700">
+                    <strong>Toulouse, 22 juin 2025</strong> – L'émotion reste vive à Toulouse après le violent accident survenu le 20 juin à l'aube, dans le quartier Jolimont, impliquant deux jeunes femmes en route vers la gare Matabiau.
+                </p>
+            </div>
+
+            <!-- Article Content -->
+            <div class="p-6">
+                <p class="mb-4 text-gray-800">
+                    Ce qui avait été présenté comme un tragique accident de la circulation est désormais qualifié de tentative de meurtre préméditée par les autorités.
+                </p>
+                
+                <p class="mb-4 text-gray-800">
+                    Après plusieurs jours d'enquête approfondie, la police judiciaire de Toulouse a dévoilé l'impensable : l'auteur de la collision, C.M., est le demi-frère de la victime principale, A.M., présente dans le véhicule au moment du drame.
+                </p>
+
+                <div class="article-divider"></div>
+
+                <!-- Section 1 -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-blue-100 text-blue-800 p-2 rounded-full mr-3">
+                            <i class="fas fa-search"></i>
+                        </span>
+                        Une mise en scène maquillée en accident
+                    </h2>
+                    <p class="mb-4 text-gray-800">
+                        Les premiers éléments de l'enquête laissaient déjà transparaître des incohérences. L'analyse des images de vidéosurveillance a confirmé que le véhicule de C.M. ne présentait aucune trace de freinage, et que l'angle d'impact ciblait directement le côté passager avant, où se trouvait A.M.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Plus troublant encore : C.M. se trouvait à proximité du lieu de l'accident sans raison apparente. L'homme, inconnu du voisinage, a été interpellé quelques minutes après le choc, sous prétexte de porter secours — un comportement jugé suspect par les secours, qui ont alerté les forces de l'ordre.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Le croisement des données téléphoniques, de la géolocalisation et de plusieurs recherches internet retrouvées sur son téléphone ont rapidement orienté l'enquête vers la thèse d'un acte prémédité.
+                    </p>
+                </div>
+
+                <!-- Section 2 -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-green-100 text-green-800 p-2 rounded-full mr-3">
+                            <i class="fas fa-money-bill-wave"></i>
+                        </span>
+                        Un héritage comme déclencheur
+                    </h2>
+                    <p class="mb-4 text-gray-800">
+                        Le mobile présumé : une succession familiale conflictuelle. Selon une source judiciaire proche du dossier, le père commun d'A.M. et de C.M. aurait récemment fait savoir à ses deux enfants qu'il envisageait de partager à parts égales un héritage important, composé notamment de biens immobiliers dans la région toulousaine.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Des échanges tendus entre les deux demi-frères avaient été signalés depuis plusieurs mois. C.M., fils aîné issu d'un premier mariage, aurait contesté ce partage, affirmant que seul lui avait droit à l'héritage familial.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Mais selon les proches d'A.M., cette dernière ignorait jusqu'alors l'existence exacte de cette succession, et ne nourrissait aucun intérêt particulier pour l'héritage. Elle préparait son départ vers la Suisse, accompagnée de sa compagne, dans le but de recommencer une nouvelle vie professionnelle et personnelle.
+                    </p>
+                    <blockquote class="border-l-4 border-rose-500 pl-4 italic text-gray-700 my-4">
+                        « Elle ne fuyait personne, elle avançait. Ce départ, c'était un renouveau, pas une rupture », confie un proche du couple.
+                    </blockquote>
+                </div>
+
+                <!-- Section 3 -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-red-100 text-red-800 p-2 rounded-full mr-3">
+                            <i class="fas fa-lock"></i>
+                        </span>
+                        Un plan prémédité
+                    </h2>
+                    <p class="mb-4 text-gray-800">
+                        Les preuves retrouvées sur les appareils électroniques de C.M. ne laissent que peu de doute sur l'intention. Plusieurs recherches accablantes ont été extraites de son historique :
+                    </p>
+                    <ul class="list-disc pl-6 mb-4 text-gray-800 space-y-2">
+                        <li>« provoquer un accident mortel discrètement »</li>
+                        <li>« tuer sans témoin à un carrefour »</li>
+                        <li>« qui hérite si un membre de la famille décède sans testament »</li>
+                    </ul>
+                    <p class="mb-4 text-gray-800">
+                        Le véhicule utilisé avait été loué sous une fausse identité, et le GPS désactivé. L'horaire de l'accident — 06h45, au moment exact du départ pour la gare — laisse penser que C.M. avait minutieusement planifié son acte, en connaissant précisément l'itinéraire de sa demi-sœur.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Il a été mis en examen pour tentative de meurtre avec préméditation et placé en détention provisoire à la maison d'arrêt de Seysses.
+                    </p>
+                </div>
+
+                <!-- Section 4 -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-purple-100 text-purple-800 p-2 rounded-full mr-3">
+                            <i class="fas fa-hospital"></i>
+                        </span>
+                        État des victimes
+                    </h2>
+                    <p class="mb-4 text-gray-800">
+                        A.M. et son amie sont toujours suivies au CHU de Purpan. Leur état est stable mais fragile, selon un communiqué du service de traumatologie. A.M. souffre d'un traumatisme thoracique important, nécessitant plusieurs jours d'observation. Son amie présente des contusions multiples et des douleurs cervicales.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Les amies étaient accompagné de leur chienne, Lilie, décédée sur le coup lors de l'impact.
+                    </p>
+                </div>
+
+                <!-- Section 5 -->
+                <div class="mb-8">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-4 flex items-center">
+                        <span class="bg-yellow-100 text-yellow-800 p-2 rounded-full mr-3">
+                            <i class="fas fa-balance-scale"></i>
+                        </span>
+                        Procédure en cours
+                    </h2>
+                    <p class="mb-4 text-gray-800">
+                        La police continue d'enquêter sur les mois ayant précédé le drame, en particulier sur les démarches juridiques liées à l'héritage, et les possibles complicités. Le parquet n'exclut pas la requalification des faits en tentative d'assassinat.
+                    </p>
+                    <p class="mb-4 text-gray-800">
+                        Le procès de C.M., qui nie toute préméditation, pourrait s'ouvrir dès cet automne, selon les avocats des parties civiles.
+                    </p>
+                </div>
+
+                <!-- Conclusion -->
+                <div class="article-divider"></div>
+                <p class="text-center text-gray-700 italic">
+                    Toulouse Actu poursuivra sa couverture de cette affaire familiale dramatique, où l'avidité semble avoir effacé toute humanité.
+                </p>
+            </div>
+
+            <!-- Article Footer -->
+            <div class="bg-gray-100 px-6 py-4 border-t border-gray-200">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex items-center mb-4 md:mb-0">
+                        <div class="w-10 h-10 rounded-full bg-gray-300 flex items-center justify-center mr-3">
+                            <i class="fas fa-user text-gray-600"></i>
+                        </div>
+                        <div>
+                            <p class="font-medium">Jean Dupont</p>
+                            <p class="text-sm text-gray-600">Journaliste Toulouse Actu</p>
+                        </div>
+                    </div>
+                    <div class="flex space-x-4">
+                        <button class="text-gray-600 hover:text-rose-600 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </button>
+                        <button class="text-gray-600 hover:text-rose-600 transition">
+                            <i class="fab fa-twitter"></i>
+                        </button>
+                        <button class="text-gray-600 hover:text-rose-600 transition">
+                            <i class="fab fa-linkedin-in"></i>
+                        </button>
+                        <button class="text-gray-600 hover:text-rose-600 transition">
+                            <i class="fas fa-envelope"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Related News -->
+        <section class="mt-12">
+            <h2 class="text-2xl font-bold text-gray-900 mb-6 flex items-center">
+                <i class="fas fa-newspaper mr-3 text-rose-700"></i>
+                À lire aussi
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <!-- News 1 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-image text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-4">
+                        <span class="text-xs font-medium text-rose-600">Sécurité</span>
+                        <h3 class="font-bold text-lg mb-2">Nouvelle campagne de prévention routière à Toulouse</h3>
+                        <p class="text-gray-600 text-sm">La mairie lance une nouvelle initiative pour réduire les accidents...</p>
+                    </div>
+                </div>
+                
+                <!-- News 2 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-image text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-4">
+                        <span class="text-xs font-medium text-rose-600">Justice</span>
+                        <h3 class="font-bold text-lg mb-2">Augmentation des litiges familiaux dans la région</h3>
+                        <p class="text-gray-600 text-sm">Les tribunaux constatent une hausse des conflits liés aux héritages...</p>
+                    </div>
+                </div>
+                
+                <!-- News 3 -->
+                <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition">
+                    <div class="h-48 bg-gray-300 flex items-center justify-center">
+                        <i class="fas fa-image text-4xl text-gray-500"></i>
+                    </div>
+                    <div class="p-4">
+                        <span class="text-xs font-medium text-rose-600">Santé</span>
+                        <h3 class="font-bold text-lg mb-2">Le CHU Purpan renforce son service de traumatologie</h3>
+                        <p class="text-gray-600 text-sm">Investissement de 2 millions d'euros pour moderniser les équipements...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Newsletter -->
+    <section class="bg-rose-800 text-white py-12">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center">
+                <h2 class="text-2xl font-bold mb-4">Restez informé</h2>
+                <p class="mb-6">Abonnez-vous à notre newsletter pour recevoir les dernières actualités de Toulouse directement dans votre boîte mail.</p>
+                <form class="flex flex-col sm:flex-row gap-2 max-w-md mx-auto">
+                    <input type="email" placeholder="Votre email" class="flex-grow px-4 py-2 rounded text-gray-900">
+                    <button type="submit" class="bg-white text-rose-800 font-bold px-6 py-2 rounded hover:bg-gray-200 transition">
+                        S'abonner
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Toulouse Actu</h3>
+                    <p class="text-gray-400">Le média de référence pour l'actualité locale toulousaine depuis 2010.</p>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Navigation</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Accueil</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Actualités</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Événements</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Légal</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Mentions légales</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Politique de confidentialité</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">CGU</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-bold text-lg mb-4">Nous suivre</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="w-10 h-10 rounded-full bg-gray-800 flex items-center justify-center hover:bg-gray-700 transition">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="border-t border-gray-800 mt-8 pt-8 text-center text-gray-500">
+                <p>© 2025 Toulouse Actu - Tous droits réservés</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Simple script to handle newsletter submission (would be expanded in a real implementation)
+        document.querySelector('form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = e.target.querySelector('input').value;
+            if(email) {
+                alert('Merci pour votre inscription ! Vous recevrez bientôt nos actualités.');
+                e.target.querySelector('input').value = '';
+            }
+        });
+    </script>
+<p style="border-radius: 8px; text-align: center; font-size: 12px; color: #fff; margin-top: 16px;position: fixed; left: 8px; bottom: 8px; z-index: 10; background: rgba(0, 0, 0, 0.8); padding: 4px 8px;">Made with <img src="https://enzostvs-deepsite.hf.space/logo.svg" alt="DeepSite Logo" style="width: 16px; height: 16px; vertical-align: middle;display:inline-block;margin-right:3px;filter:brightness(0) invert(1);"><a href="https://enzostvs-deepsite.hf.space" style="color: #fff;text-decoration: underline;" target="_blank" >DeepSite</a> - 🧬 <a href="https://enzostvs-deepsite.hf.space?remix=Mamalah/toulouse-commune" style="color: #fff;text-decoration: underline;" target="_blank" >Remix</a></p></body>
+</html>
